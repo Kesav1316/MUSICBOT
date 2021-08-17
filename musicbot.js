@@ -38,7 +38,7 @@ client.on
     const args = message.content.slice(prefix.length).split(' ');
     const command = args.shift().toLowerCase();
 
-    if (command == '' || command.includes('?')) return;
+    if (command == '' || command.includes('.')) return;
 
     else if (command == 'help')
     {
