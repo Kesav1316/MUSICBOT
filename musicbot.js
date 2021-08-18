@@ -118,7 +118,7 @@ client.on
 
                 if (category_number > 0)
                 {
-                    if (8 > category_number)
+                    if (10 > category_number)
                     {
                         if (all)
                         {
