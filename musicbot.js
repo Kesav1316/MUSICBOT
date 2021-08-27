@@ -114,6 +114,9 @@ client.on
         )
     }
 
+else if(command == "mathesh")
+message.channel.send("ss")
+
     else if (command == 'baa')
     {
         let category = args [0];
